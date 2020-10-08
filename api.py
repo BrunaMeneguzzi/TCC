@@ -6,24 +6,10 @@ import py2neo
 from py2neo import Graph, Node, NodeMatcher, Relationship
 pattern = re.compile("^([a-z]+)$")
 
-arquivo = open('SAV1430674.xml', 'r', encoding = 'utf8')
-#novo_arquivo = open('novo-arquivo.xml', 'w', encoding = 'utf8')
-#linhas = arquivo.readlines()
+arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
 
-#for i in range(0,len(linhas)):
-#  linhas[i] = linhas[i].replace("marc:", "")
-#  novo_arquivo.write(linhas[i])
-
-#arquivo.close()
-#novo_arquivo.close()
-
-#ET.register_namespace('marc', 'http://www.loc.gov/MARC21/slim')
-#ET._namespace_map['http://www.loc.gov/MARC21/slim'] = 'marc'
-
-#mytree = ET.parse('novo-arquivo.xml')
 mytree = ET.parse('SAV1421269.xml')
 myroot = mytree.getroot()
-
 
 # myroot é o collection
 items = []
@@ -76,6 +62,7 @@ graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
 for child in myroot:
   properties = dict()
   autor_text = ''
+  assunto = ''
   for data in child.iter("{http://www.loc.gov/MARC21/slim}datafield"):
       if data.attrib.get('tag') == '041':
         idioma = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
@@ -144,13 +131,13 @@ for child in myroot:
       #print(isbn)
       properties["isbn"] = isbn
   #items.append(properties)
-  #createItem(properties)
-  #if autor_text != '':
-    #print(autor_text)
-    #createRelAutor(properties, autor_text)
+  createItem(properties)
   if autor_text != '':
     #print(autor_text)
-    createRelAutor(properties, assunto)
+    createRelAutor(properties, autor_text)
+  if assunto != '':
+    #print(assunto)
+    createRelAssunto(properties, assunto)
   #print(properties)
 #print(items)
 
