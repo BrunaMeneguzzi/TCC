@@ -6,9 +6,9 @@ import py2neo
 from py2neo import Graph, Node, NodeMatcher, Relationship
 pattern = re.compile("^([a-z]+)$")
 
-arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
+#arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
 
-mytree = ET.parse('SAV1421269.xml')
+mytree = ET.parse('SAV1425925.xml')
 myroot = mytree.getroot()
 
 # myroot é o collection
@@ -54,11 +54,23 @@ def createRelAssunto(properties_dict, assunto):
   graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
   item_titulo = properties_dict["titulo"]
   matcher = NodeMatcher(graph)
-  m = matcher.match("Assunto", nome=assunto).first()
+  print(assunto)
+  m = matcher.match("Assunto", assunto=assunto).first()
   n = matcher.match("Item", titulo=item_titulo).first()
   #print(n)
   #print(m)
   rel = Relationship(m, "ASSUNTO", n)
+  graph.create(rel)
+
+def createRelMaterial(properties_dict, material):
+  graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+  item_titulo = properties_dict["titulo"]
+  matcher = NodeMatcher(graph)
+  m = matcher.match("Tipo de Material", tipo=material).first()
+  n = matcher.match("Item", titulo=item_titulo).first()
+  #print(n)
+  #print(m)
+  rel = Relationship(m, "MATERIAL", n)
   graph.create(rel)
 
 graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
@@ -67,7 +79,8 @@ graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
 for child in myroot:
   properties = dict()
   autor_text = ''
-  assunto = ''
+  assunto_list = []
+  material = ''
   for data in child.iter("{http://www.loc.gov/MARC21/slim}datafield"):
       if data.attrib.get('tag') == '041':
         idioma = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
@@ -98,9 +111,9 @@ for child in myroot:
           properties["autor_sec"] = [autor2_text]
       if data.attrib.get('tag') == '650':
         assunto = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
-        properties["assunto"] = assunto
         matcher = NodeMatcher(graph)
-        m = matcher.match("Assunto", nome=assunto).first()
+        assunto_list.append(assunto)
+        m = matcher.match("Assunto", assunto=assunto).first()
         if m is None:
           #print(autor_text)
           createAssunto(assunto)
@@ -110,7 +123,7 @@ for child in myroot:
       if data.attrib.get('tag') == '945':
         material = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='b']").text
         matcher = NodeMatcher(graph)
-        m = matcher.match("Tipo de Material", nome=material).first()
+        m = matcher.match("Tipo de Material", tipo=material).first()
         if m is None:
           #print(autor_text)
           createMaterial(material)
@@ -140,13 +153,17 @@ for child in myroot:
       #print(isbn)
       properties["isbn"] = isbn
   #items.append(properties)
-  #createItem(properties)
+  createItem(properties)
   if autor_text != '':
     #print(autor_text)
     createRelAutor(properties, autor_text)
-  if assunto != '':
+  if assunto != []:
+    print(assunto_list)
+    for element in assunto_list:
+      createRelAssunto(properties, element)
+  if material != '':
     #print(assunto)
-    createRelAssunto(properties, assunto)
+    createRelMaterial(properties, material)
   #print(properties)
 #print(items)
 
