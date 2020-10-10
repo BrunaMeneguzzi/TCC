@@ -9,3 +9,6 @@ graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
 
 nodes = graph.run("MATCH (a:Assunto) RETURN a.nome").data()
 print(nodes)
+
+# MATCH (n)
+# DETACH DELETE n
