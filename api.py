@@ -29,9 +29,14 @@ def createAutor(name):
     nodename = Node('Autor', nome=name)
     graph.create(nodename)
 
-def createAssunto(name):
+def createAssunto(assunto):
     graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
-    nodename = Node('Assunto', nome=name)
+    nodename = Node('Assunto', assunto=assunto)
+    graph.create(nodename)
+
+def createMaterial(name):
+    graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+    nodename = Node('Tipo de Material', tipo=material)
     graph.create(nodename)
 
 def createRelAutor(properties_dict, autor_text):
@@ -104,7 +109,11 @@ for child in myroot:
         properties["titulo"] = titulo
       if data.attrib.get('tag') == '945':
         material = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='b']").text
-        properties["material"] = material
+        matcher = NodeMatcher(graph)
+        m = matcher.match("Tipo de Material", nome=material).first()
+        if m is None:
+          #print(autor_text)
+          createMaterial(material)
       if data.attrib.get('tag') == '260':
         imprenta = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
         imprenta_text = ''
@@ -131,7 +140,7 @@ for child in myroot:
       #print(isbn)
       properties["isbn"] = isbn
   #items.append(properties)
-  createItem(properties)
+  #createItem(properties)
   if autor_text != '':
     #print(autor_text)
     createRelAutor(properties, autor_text)
