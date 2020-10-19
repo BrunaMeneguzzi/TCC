@@ -19,8 +19,13 @@ def createRelUsuarioAssunto(usuario, assunto):
 
 usr = input("Digite seu usuário:")
 createUsuario(usr)
-print("Dados os seguintes assuntos, escolha o que mais lhe interessa:")
+print("Dados os seguintes assuntos, escolha os que mais lhe interessam:")
 nodes = graph.run("MATCH (a:Assunto) RETURN a.assunto").data()
 print(nodes)
 assunto_esc = input()
-createRelUsuarioAssunto(usr, assunto_esc)
+assunto_esc = list(assunto_esc.split("-")) 
+for assunto in assunto_esc:
+    createRelUsuarioAssunto(usr, assunto)
+
+# o usuario precisa apenas escrever os assuntos
+# ex: FOLCLORE-DISCOTECAS
