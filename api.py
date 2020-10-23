@@ -20,6 +20,9 @@ biblioteca = input("Insira o nome da biblioteca:")
 #   var = x.find("./{http://www.loc.gov/MARC21/slim}controlfield[@tag='005']").text
 #   print(var)
 
+# MATCH (n)
+# DETACH DELETE n
+
 def createItem(properties_dict):
     graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
     nodename = Node('Item', **properties_dict)
