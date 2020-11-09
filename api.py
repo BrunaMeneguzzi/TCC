@@ -28,6 +28,160 @@ def createItem(properties_dict):
     nodename = Node('Item', **properties_dict)
     graph.create(nodename)
 
+def createAssunto(assunto):
+    graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+    nodename = Node('Assunto', assunto=assunto)
+    graph.create(nodename)
+
+def createRelUsuarios(usuario1, usuario2):
+  graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+  matcher = NodeMatcher(graph)
+  m = matcher.match("Usuário", usuario=usuario1).first()
+  n = matcher.match("Usuário", usuario=usuario2).first()
+  rel = Relationship(n, "SIMILARES", m)
+  graph.create(rel)
+
+def assuntos_comum(usuario1, usuario2):
+    node = graph.run('''MATCH (a:Usuário {usuario:"''' + usuario1 + '''"}), (b:Usuário {usuario:"''' + usuario2 + '''"}), 
+    (a)-[r:TEM_PREFERÊNCIA_POR]-(c:Assunto), (b)-[s:TEM_PREFERÊNCIA_POR]-(c:Assunto) 
+    return a.usuario, b.usuario, c.assunto''').data()
+    print(node)
+    if node != []:
+        createRelUsuarios(usuario1, usuario2)
+
+# relacionamento entre 2 itens
+# assuntos iguais
+# autores iguais
+# indexação de titulo
+# indexação de nota
+# mesma lingua (peso baixo)
+
+def mesmo_idioma(isbn1, isbn2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''", idioma:"por"}), (b:Item {isbn:"''' + isbn2 + '''", idioma:"por"}) 
+  RETURN a.titulo, b.titulo, a.idioma''').data()
+  print(node)
+  if node != []:
+    return 1
+  else:
+    return 0
+
+def autores_iguais(isbn1, isbn2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''"}), (b:Item {isbn:"''' + isbn2 + '''"}), 
+  (c:Autor)-[r:É_AUTOR_DE]-(a), (c:Autor)-[s:É_AUTOR_DE]-(b) 
+  return a.titulo, b.titulo, c.nome''').data()
+  print(node)
+  if node != []:
+    return 1
+  else:
+    return 0
+
+def assuntos_comum_usuarios(usuario1, usuario2):
+    node = graph.run('''MATCH (a:Usuário {usuario:"''' + usuario1 + '''"}), (b:Usuário {usuario:"''' + usuario2 + '''"}), 
+    (a)-[r:TEM_PREFERÊNCIA_POR]-(c:Assunto), (b)-[s:TEM_PREFERÊNCIA_POR]-(c:Assunto) 
+    return a.usuario, b.usuario, c.assunto''').data()
+    print(node)
+    if node != []:
+        createRelUsuarios(usuario1, usuario2)
+
+def assuntos_comum_itens(item1, item2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + item1 + '''"}), (b:Item {isbn:"''' + item2 + '''"}), 
+  (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto), (b)-[s:PERTENCE_AO_ASSUNTO]-(c:Assunto) 
+  return a.titulo, b.titulo, c.assunto''').data()
+  #print(node)
+  count1 = graph.run('''MATCH (a:Item {isbn:"''' + item1 + '''"}), (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto)
+  return count(c) as count''').data()
+  count2 = graph.run('''MATCH (a:Item {isbn:"''' + item2 + '''"}), (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto)
+  return count(c) as count''').data()
+  union = int(str(count1[0].values()).replace('dict_values([', '').replace('])', '')) + \
+    int(str(count2[0].values()).replace('dict_values([', '').replace('])', ''))
+  print(union)
+  if node != []:
+    return len(node)/union
+    
+
+def createRelItens(item1, item2, score):
+  graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+  matcher = NodeMatcher(graph)
+  m = matcher.match("Item", isbn=item1).first()
+  n = matcher.match("Item", isbn=item2).first()
+  rel = Relationship(n, "ITENS_SEMELHANTES", m, score=score)
+  graph.create(rel)
+
+graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+
+# CRIAÇÃO DOS INDEX
+#graph.run('''CALL db.index.fulltext.createNodeIndex('itens_nota', ['Item'], ['nota'], {analyzer: "brazilian"})''')
+#graph.run('''CALL db.index.fulltext.createNodeIndex('itens', ['Item'], ['titulo'], {analyzer: "brazilian"})''')
+
+# função que retorna os itens relacionados à busca e seus scores.
+def index_itens(busca, item):
+  #busca = isbn do item
+  #transformar isbn do item no titulo dele
+  item_titulo = graph.run('''MATCH (n:Item {isbn:"''' + item + '''"}) RETURN n.titulo''').data()[0]
+  print(item_titulo['n.titulo'])
+  item_titulo = item_titulo['n.titulo']
+  titulo = graph.run('''MATCH (n:Item {isbn:"''' + busca + '''"}) RETURN n.titulo''').data()[0]
+  print(titulo['n.titulo'])
+  titulo = titulo['n.titulo']
+  nodes = graph.run('''CALL db.index.fulltext.queryNodes("itens", "''' + titulo + '''") YIELD node, score
+  RETURN node.isbn, node.titulo, score''').data()
+  print(nodes)
+  score = 0
+  for node in nodes:
+    print(node['node.titulo'])
+    print(item_titulo)
+    if node['node.titulo'] == item_titulo:
+      score = int(node['score'])
+      print(score)
+  return score
+
+def index_itens_nota(busca, item):
+  #busca = isbn do item
+  #transformar isbn do item no titulo dele
+  item_nota = graph.run('''MATCH (n:Item {isbn:"''' + item + '''"}) RETURN n.nota''').data()[0]
+  print(item_nota['n.nota'])
+  item_nota = item_nota['n.nota']
+  nota = graph.run('''MATCH (n:Item {isbn:"''' + busca + '''"}) RETURN n.nota''').data()[0]
+  print(nota['n.nota'])
+  nota = nota['n.nota']
+  nodes = graph.run('''CALL db.index.fulltext.queryNodes("itens_nota", "''' + nota + '''") YIELD node, score
+  RETURN node.isbn, node.nota, score''').data()
+  print(nodes)
+  score = 0
+  for node in nodes:
+    #print(node['node.titulo'])
+    print(item_nota)
+    if node['node.nota'] == item_nota:
+      score = int(node['score'])
+      print(score)
+  return score
+
+def itens(busca, item):
+    nodes = graph.run('''CALL db.index.fulltext.queryNodes("entreItens", "''' + busca + '''") YIELD node, score
+    RETURN node.isbn, node.titulo, score''').data()
+    print(nodes)
+
+
+#itens("folclore")
+
+# Função que criou o NodeIndex entre Assuntos
+#nodes = graph.run('''CALL db.index.fulltext.createNodeIndex("entreAssuntos",["Assunto"],["assunto"])''')
+#print(nodes)
+
+# CALL db.index.fulltext.createRelationshipIndex("taggedByRelationshipIndex",["TAGGED_AS"],["taggedByUser"], { analyzer: "url_or_email", eventually_consistent: "true" })
+
+# Função que cria RelationshipIndex entre Itens e Assuntos
+#nodes = graph.run('''CALL db.index.fulltext.createRelationshipIndex("pertenceAoAssunto", ["Item"],["Assunto"])''')
+
+#index_busca("folclore")
+
+#assuntos_comum("Zeza", "Bubu")
+
+def createItem(properties_dict):
+    graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
+    nodename = Node('Item', **properties_dict)
+    graph.create(nodename)
+
 def createAutor(name):
     graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
     nodename = Node('Autor', nome=name)
@@ -217,6 +371,21 @@ for child in myroot:
       #print(autor_text)
       createBiblioteca(biblioteca)
     createRelBiblioteca(properties, biblioteca)
+
+
+score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
+print("score_autores = ", score_autores)
+score_assuntos = assuntos_comum_itens("20200918225200.0", "20191119103535.0")
+print("score_assuntos = ", score_assuntos)
+score_idioma = mesmo_idioma("20200918225200.0", "20191119103535.0")
+print("score_idioma = ", score_idioma)
+score_titulo = index_itens("20200918225200.0", "20191119103535.0")
+print("score_titulo = ", score_titulo)
+score_nota = index_itens("20200918225200.0", "20191119103535.0")
+print("score_nota = ", score_nota)
+score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
+print("score = ", score)
+createRelItens("20200918225200.0", "20191119103535.0", score)
   #print(properties)
 #print(items)
 

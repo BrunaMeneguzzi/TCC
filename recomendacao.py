@@ -41,7 +41,14 @@ def assuntos_comum(usuario1, usuario2):
 # indexação de nota
 # mesma lingua (peso baixo)
 
-
+def mesmo_idioma(isbn1, isbn2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''", idioma:"por"}), (b:Item {isbn:"''' + isbn2 + '''", idioma:"por"}) 
+  RETURN a.titulo, b.titulo, a.idioma''').data()
+  print(node)
+  if node != []:
+    return 1
+  else:
+    return 0
 
 def autores_iguais(isbn1, isbn2):
   node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''"}), (b:Item {isbn:"''' + isbn2 + '''"}), 
@@ -85,7 +92,7 @@ def createRelItens(item1, item2, score):
   rel = Relationship(n, "ITENS_SEMELHANTES", m, score=score)
   graph.create(rel)
 
-graph.run('''CALL db.index.fulltext.createNodeIndex('itens2', ['Item'], ['titulo', 'nota'], {analyzer: "brazilian"})''')
+graph.run('''CALL db.index.fulltext.createNodeIndex('itens_nota', ['Item'], ['nota'])''')
 
 
 # CALL db.index.fulltext.createNodeIndex("titlesAndDescriptions",["Movie", "Book"],["title", "description"])
@@ -99,18 +106,55 @@ graph.run('''CALL db.index.fulltext.createNodeIndex('itens2', ['Item'], ['titulo
 #print(nodes)
 
 # função que retorna os itens relacionados à busca e seus scores.
-def index_itens(busca):
+def index_itens(busca, item):
+  #busca = isbn do item
+  #transformar isbn do item no titulo dele
+  item_titulo = graph.run('''MATCH (n:Item {isbn:"''' + item + '''"}) RETURN n.titulo''').data()[0]
+  print(item_titulo['n.titulo'])
+  item_titulo = item_titulo['n.titulo']
+  titulo = graph.run('''MATCH (n:Item {isbn:"''' + busca + '''"}) RETURN n.titulo''').data()[0]
+  print(titulo['n.titulo'])
+  titulo = titulo['n.titulo']
+  nodes = graph.run('''CALL db.index.fulltext.queryNodes("itens", "''' + titulo + '''") YIELD node, score
+  RETURN node.isbn, node.titulo, score''').data()
+  print(nodes)
+  score = 0
+  for node in nodes:
+    print(node['node.titulo'])
+    print(item_titulo)
+    if node['node.titulo'] == item_titulo:
+      score = int(node['score'])
+      print(score)
+  return score
+
+def index_itens_nota(busca, item):
+  #busca = isbn do item
+  #transformar isbn do item no titulo dele
+  item_nota = graph.run('''MATCH (n:Item {isbn:"''' + item + '''"}) RETURN n.nota''').data()[0]
+  print(item_nota['n.nota'])
+  item_nota = item_nota['n.nota']
+  nota = graph.run('''MATCH (n:Item {isbn:"''' + busca + '''"}) RETURN n.nota''').data()[0]
+  print(nota['n.nota'])
+  nota = nota['n.nota']
+  nodes = graph.run('''CALL db.index.fulltext.queryNodes("itens_nota", "''' + nota + '''") YIELD node, score
+  RETURN node.isbn, node.nota, score''').data()
+  print(nodes)
+  score = 0
+  for node in nodes:
+    #print(node['node.titulo'])
+    print(item_nota)
+    if node['node.nota'] == item_nota:
+      score = int(node['score'])
+      print(score)
+  return score
+
+def itens(busca, item):
     nodes = graph.run('''CALL db.index.fulltext.queryNodes("entreItens", "''' + busca + '''") YIELD node, score
     RETURN node.isbn, node.titulo, score''').data()
     print(nodes)
 
-def itens(busca):
-    nodes = graph.run('''CALL db.index.fulltext.queryNodes("entreItens", "''' + busca + '''") YIELD node, score
-    RETURN node.isbn, node.titulo, score''').data()
-    print(nodes)
 
-
-itens("folclore")
+#itens("folclore")
 
 # Função que criou o NodeIndex entre Assuntos
 #nodes = graph.run('''CALL db.index.fulltext.createNodeIndex("entreAssuntos",["Assunto"],["assunto"])''')
@@ -136,9 +180,15 @@ score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
 print("score_autores = ", score_autores)
 score_assuntos = assuntos_comum_itens("20200918225200.0", "20191119103535.0")
 print("score_assuntos = ", score_assuntos)
-score = (9*score_autores + 1*score_assuntos)/10
+score_idioma = mesmo_idioma("20200918225200.0", "20191119103535.0")
+print("score_idioma = ", score_idioma)
+score_titulo = index_itens("20200918225200.0", "20191119103535.0")
+print("score_titulo = ", score_titulo)
+score_nota = index_itens("20200918225200.0", "20191119103535.0")
+print("score_nota = ", score_nota)
+score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
 print("score = ", score)
-#createRelItens("20200918225200.0", "20191119103535.0", score)
+createRelItens("20200918225200.0", "20191119103535.0", score)
 
 
 
