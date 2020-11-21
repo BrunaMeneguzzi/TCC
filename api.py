@@ -8,7 +8,7 @@ pattern = re.compile("^([a-z]+)$")
 
 #arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
 
-mytree = ET.parse('SAV1431425.xml')
+mytree = ET.parse('SAV1421269.xml')
 myroot = mytree.getroot()
 
 # myroot é o collection
@@ -373,19 +373,19 @@ for child in myroot:
     createRelBiblioteca(properties, biblioteca)
 
 
-score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
-print("score_autores = ", score_autores)
-score_assuntos = assuntos_comum_itens("20200918225200.0", "20191119103535.0")
-print("score_assuntos = ", score_assuntos)
-score_idioma = mesmo_idioma("20200918225200.0", "20191119103535.0")
-print("score_idioma = ", score_idioma)
-score_titulo = index_itens("20200918225200.0", "20191119103535.0")
-print("score_titulo = ", score_titulo)
-score_nota = index_itens("20200918225200.0", "20191119103535.0")
-print("score_nota = ", score_nota)
-score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
-print("score = ", score)
-createRelItens("20200918225200.0", "20191119103535.0", score)
+# score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
+# print("score_autores = ", score_autores)
+# score_assuntos = assuntos_comum_itens("20200918225200.0", "20191119103535.0")
+# print("score_assuntos = ", score_assuntos)
+# score_idioma = mesmo_idioma("20200918225200.0", "20191119103535.0")
+# print("score_idioma = ", score_idioma)
+# score_titulo = index_itens("20200918225200.0", "20191119103535.0")
+# print("score_titulo = ", score_titulo)
+# score_nota = index_itens("20200918225200.0", "20191119103535.0")
+# print("score_nota = ", score_nota)
+# score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
+# print("score = ", score)
+# createRelItens("20200918225200.0", "20191119103535.0", score)
   #print(properties)
 #print(items)
 

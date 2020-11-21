@@ -79,9 +79,10 @@ def assuntos_comum_itens(item1, item2):
   return count(c) as count''').data()
   union = int(str(count1[0].values()).replace('dict_values([', '').replace('])', '')) + \
     int(str(count2[0].values()).replace('dict_values([', '').replace('])', ''))
-  print(union)
   if node != []:
-    return len(node)/union
+    return 1
+  else:
+    return 0
     
 
 def createRelItens(item1, item2, score):
@@ -92,7 +93,7 @@ def createRelItens(item1, item2, score):
   rel = Relationship(n, "ITENS_SEMELHANTES", m, score=score)
   graph.create(rel)
 
-graph.run('''CALL db.index.fulltext.createNodeIndex('itens_nota', ['Item'], ['nota'])''')
+#graph.run('''CALL db.index.fulltext.createNodeIndex('itens_nota', ['Item'], ['nota'])''')
 
 
 # CALL db.index.fulltext.createNodeIndex("titlesAndDescriptions",["Movie", "Book"],["title", "description"])
@@ -142,10 +143,8 @@ def index_itens_nota(busca, item):
   score = 0
   for node in nodes:
     #print(node['node.titulo'])
-    print(item_nota)
     if node['node.nota'] == item_nota:
       score = int(node['score'])
-      print(score)
   return score
 
 def itens(busca, item):
@@ -153,6 +152,10 @@ def itens(busca, item):
     RETURN node.isbn, node.titulo, score''').data()
     print(nodes)
 
+def allItens():
+  #retorna todos os itens do grafo
+  itens = graph.run('''MATCH (n:Item) RETURN n''').data()
+  return itens
 
 #itens("folclore")
 
@@ -175,6 +178,7 @@ def index_busca(busca):
 
 #index_busca("folclore")
 
+'''
 #assuntos_comum("Zeza", "Bubu")
 score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
 print("score_autores = ", score_autores)
@@ -189,7 +193,20 @@ print("score_nota = ", score_nota)
 score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
 print("score = ", score)
 createRelItens("20200918225200.0", "20191119103535.0", score)
+'''
 
+itens = allItens()
+#print(itens)
+for item1 in itens:
+  item1 = dict(item1['n'])
+  for item2 in itens:
+    if item1 != item2:
+      item2 = dict(item2['n'])
+      score_autores = autores_iguais(item1['isbn'], item2['isbn'])
+      score_assuntos = assuntos_comum_itens(item1['isbn'], item2['isbn'])
+      score_idioma = mesmo_idioma(item1['isbn'], item2['isbn'])
+      score = (8*score_autores + 1.5*score_assuntos + 0.5*score_idioma)/10
+      createRelItens(item1['isbn'], item2['isbn'], score)
 
 
 def createRelAssunto(properties_dict, assunto):
