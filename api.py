@@ -7,8 +7,9 @@ from py2neo import Graph, Node, NodeMatcher, Relationship
 pattern = re.compile("^([a-z]+)$")
 
 #arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
+# SAV1421269
 
-mytree = ET.parse('SAV1421269.xml')
+mytree = ET.parse('itens_ieb.xml')
 myroot = mytree.getroot()
 
 # myroot é o collection
@@ -20,8 +21,7 @@ biblioteca = input("Insira o nome da biblioteca:")
 #   var = x.find("./{http://www.loc.gov/MARC21/slim}controlfield[@tag='005']").text
 #   print(var)
 
-# MATCH (n)
-# DETACH DELETE n
+# MATCH (n) DETACH DELETE n
 
 def createItem(properties_dict):
     graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
@@ -41,6 +41,11 @@ def createRelUsuarios(usuario1, usuario2):
   rel = Relationship(n, "SIMILARES", m)
   graph.create(rel)
 
+def allItens():
+  #retorna todos os itens do grafo
+  itens = graph.run('''MATCH (n:Item) RETURN n''').data()
+  return itens
+
 def assuntos_comum(usuario1, usuario2):
     node = graph.run('''MATCH (a:Usuário {usuario:"''' + usuario1 + '''"}), (b:Usuário {usuario:"''' + usuario2 + '''"}), 
     (a)-[r:TEM_PREFERÊNCIA_POR]-(c:Assunto), (b)-[s:TEM_PREFERÊNCIA_POR]-(c:Assunto) 
@@ -59,7 +64,6 @@ def assuntos_comum(usuario1, usuario2):
 def mesmo_idioma(isbn1, isbn2):
   node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''", idioma:"por"}), (b:Item {isbn:"''' + isbn2 + '''", idioma:"por"}) 
   RETURN a.titulo, b.titulo, a.idioma''').data()
-  print(node)
   if node != []:
     return 1
   else:
@@ -69,7 +73,6 @@ def autores_iguais(isbn1, isbn2):
   node = graph.run('''MATCH (a:Item {isbn:"''' + isbn1 + '''"}), (b:Item {isbn:"''' + isbn2 + '''"}), 
   (c:Autor)-[r:É_AUTOR_DE]-(a), (c:Autor)-[s:É_AUTOR_DE]-(b) 
   return a.titulo, b.titulo, c.nome''').data()
-  print(node)
   if node != []:
     return 1
   else:
@@ -83,26 +86,58 @@ def assuntos_comum_usuarios(usuario1, usuario2):
     if node != []:
         createRelUsuarios(usuario1, usuario2)
 
-def assuntos_comum_itens(item1, item2):
-  node = graph.run('''MATCH (a:Item {isbn:"''' + item1 + '''"}), (b:Item {isbn:"''' + item2 + '''"}), 
+def assuntos_comum_itens(properties, item2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (b:Item {isbn:"''' + item2 + '''"}), 
   (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto), (b)-[s:PERTENCE_AO_ASSUNTO]-(c:Assunto) 
   return a.titulo, b.titulo, c.assunto''').data()
   #print(node)
-  count1 = graph.run('''MATCH (a:Item {isbn:"''' + item1 + '''"}), (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto)
+  count1 = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto)
   return count(c) as count''').data()
   count2 = graph.run('''MATCH (a:Item {isbn:"''' + item2 + '''"}), (a)-[r:PERTENCE_AO_ASSUNTO]-(c:Assunto)
   return count(c) as count''').data()
   union = int(str(count1[0].values()).replace('dict_values([', '').replace('])', '')) + \
     int(str(count2[0].values()).replace('dict_values([', '').replace('])', ''))
-  print(union)
   if node != []:
-    return len(node)/union
-    
+    return 1
+  else:
+    return 0
 
-def createRelItens(item1, item2, score):
+def material_comum_itens(properties, item2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (b:Item {isbn:"''' + item2 + '''"}), 
+  (a)-[r:É_DO_TIPO_DE_MATERIAL]-(c:`Tipo de Material`), (b)-[s:É_DO_TIPO_DE_MATERIAL]-(c:`Tipo de Material`) 
+  return a.titulo, b.titulo, c.material''').data()
+  #print(node)
+  count1 = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (a)-[r:É_DO_TIPO_DE_MATERIAL]-(c:`Tipo de Material`)
+  return count(c) as count''').data()
+  count2 = graph.run('''MATCH (a:Item {isbn:"''' + item2 + '''"}), (a)-[r:É_DO_TIPO_DE_MATERIAL]-(c:`Tipo de Material`)
+  return count(c) as count''').data()
+  union = int(str(count1[0].values()).replace('dict_values([', '').replace('])', '')) + \
+    int(str(count2[0].values()).replace('dict_values([', '').replace('])', ''))
+  if node != []:
+    return 1
+  else:
+    return 0
+  
+def biblioteca_comum_itens(properties, item2):
+  node = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (b:Item {isbn:"''' + item2 + '''"}), 
+  (a)-[r:ESTÁ_ALOCADO_EM]-(c:Biblioteca), (b)-[s:ESTÁ_ALOCADO_EM]-(c:Biblioteca) 
+  return a.titulo, b.titulo, c.biblioteca''').data()
+  #print(node)
+  count1 = graph.run('''MATCH (a:Item {isbn:"''' + properties + '''"}), (a)-[r:ESTÁ_ALOCADO_EM]-(c:Biblioteca)
+  return count(c) as count''').data()
+  count2 = graph.run('''MATCH (a:Item {isbn:"''' + item2 + '''"}), (a)-[r:ESTÁ_ALOCADO_EM]-(c:Biblioteca)
+  return count(c) as count''').data()
+  union = int(str(count1[0].values()).replace('dict_values([', '').replace('])', '')) + \
+    int(str(count2[0].values()).replace('dict_values([', '').replace('])', ''))
+  if node != []:
+    return 1
+  else:
+    return 0    
+
+def createRelItens(properties, item2, score):
   graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
   matcher = NodeMatcher(graph)
-  m = matcher.match("Item", isbn=item1).first()
+  m = matcher.match("Item", isbn=properties).first()
   n = matcher.match("Item", isbn=item2).first()
   rel = Relationship(n, "ITENS_SEMELHANTES", m, score=score)
   graph.create(rel)
@@ -153,7 +188,6 @@ def index_itens_nota(busca, item):
     print(item_nota)
     if node['node.nota'] == item_nota:
       score = int(node['score'])
-      print(score)
   return score
 
 def itens(busca, item):
@@ -257,6 +291,8 @@ graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
 
 # records são os filhos do myroot
 for child in myroot:
+  itens = allItens()
+  print("Número de itens = ", len(itens))
   properties = dict()
   autor_text = ''
   assunto_list = []
@@ -371,6 +407,25 @@ for child in myroot:
       #print(autor_text)
       createBiblioteca(biblioteca)
     createRelBiblioteca(properties, biblioteca)
+  print("ITEM ",properties['titulo']," INSERIDO")
+  # criação do relacionamento com os outros itens da base
+  for item2 in itens:
+    item2 = dict(item2['n'])
+    print("RELACIONAMENTO COM ITEM ",item2['titulo'])
+    score_autores = autores_iguais(properties['isbn'], item2['isbn'])
+    #print("score_autores = ", score_autores)
+    score_assuntos = assuntos_comum_itens(properties['isbn'], item2['isbn'])
+    #print("score_assuntos = ", score_assuntos)
+    score_material = material_comum_itens(properties['isbn'], item2['isbn'])
+    #print("score_material = ", score_material)
+    score_biblioteca = biblioteca_comum_itens(properties['isbn'], item2['isbn'])
+    #print("score_biblioteca = ", score_biblioteca)
+    score_titulo = index_itens(properties['isbn'], item2['isbn'])
+    #print("score_titulo = ", score_titulo)
+    score_nota = index_itens(properties['isbn'], item2['isbn'])
+    #print("score_nota = ", score_nota)
+    score = (8*score_autores + 3*score_assuntos + 1*score_material + 1*score_biblioteca + 5*score_titulo + 1*score_nota)/16
+    createRelItens(properties['isbn'], item2['isbn'], score)
 
 
 # score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
@@ -396,3 +451,9 @@ for child in myroot:
 # 2. quero pegar apenas os subfields de a-z e não números
 
 # how to access http://localhost:7474/browser/
+
+# Kelly Rosa Braghetto18:20
+# https://www.selenium.dev/documentation/en/
+# Kelly Rosa Braghetto18:50
+# https://realpython.com/python-timer/
+#
