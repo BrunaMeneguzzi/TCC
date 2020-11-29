@@ -8,7 +8,7 @@ mytree = ET.parse('SAV1431425.xml')
 myroot = mytree.getroot()
 
 def recomendacao(item):
-    nodes = graph.run('''MATCH p=(n:Item {isbn:"''' + item + '''"})-[r:ITENS_SEMELHANTES]->(m:Item) RETURN m.titulo, r.score ORDER BY r.score DESC''').data()
+    nodes = graph.run('''MATCH p=(n:Item {isbn:"''' + item + '''"})-[r:ITENS_SEMELHANTES]-(m:Item) RETURN m.titulo, r.score ORDER BY r.score DESC''').data()
     #print(nodes)
     return nodes
 
@@ -23,4 +23,6 @@ for item in itens:
     result = recomendacao(item['isbn'])
     print("Itens relacionados ao item ", item['titulo'])
     for item2 in result:
-        print(item2['m.titulo'], item2['r.score'])
+        print(item2)
+
+# OS RELACIONAMENTOS DE ITENS_SEMELHANTES TÊM QUE SER IDA E VOLTA
