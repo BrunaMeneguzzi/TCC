@@ -425,7 +425,8 @@ for child in myroot:
     score_nota = index_itens(properties['isbn'], item2['isbn'])
     #print("score_nota = ", score_nota)
     score = (8*score_autores + 3*score_assuntos + 1*score_material + 1*score_biblioteca + 5*score_titulo + 1*score_nota)/16
-    createRelItens(properties['isbn'], item2['isbn'], score)
+    if score != 0.0:
+      createRelItens(properties['isbn'], item2['isbn'], score)
 
 
 # score_autores = autores_iguais("20200918225200.0", "20191119103535.0")

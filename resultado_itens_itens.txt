@@ -1,0 +1,528 @@
+Itens relacionados ao item  Grandesertão.br
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'CRÍTICA', 'g.nome': 'Bolle, Willi', 'h.nome': 'Damasceno, 
+Darcy 1922-', 'r.score': 0.1875}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Bolle, Willi', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.1875}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Bolle, Willi', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.1875}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'INTERPRETAÇÃO', 'g.nome': 'Bolle, Willi', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.1875}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'POESIA', 'g.nome': 'Bolle, Willi', 'h.nome': 'Espínola, 
+Adriano 1952-', 'r.score': 0.1875}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Bolle, Willi', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.1875}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Bolle, Willi', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.1875}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Bolle, Willi', 'h.nome': 'Rosenbaum, Yudith 1957-', 'r.score': 0.1875}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Bolle, Willi', 'h.nome': 'Rosenbaum, Yudith 1957-', 'r.score': 0.1875}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Bolle, Willi', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.1875}
+Itens relacionados ao item  Razão da recusa
+{'m.titulo': 'Lugar do mito', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Bischof, Betina', 'h.nome': 'Pacheco, Ana Paula', 'r.score': 0.3125}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Bischof, Betina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PRISÃO', 'g.nome': 'Bischof, Betina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Bischof, Betina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Bischof, Betina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Bischof, Betina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'ARTES', 'g.nome': 'Bischof, Betina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Bischof, Betina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Bischof, Betina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Bischof, Betina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+Itens relacionados ao item  Estética
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'l.assunto': 'PRISÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'EPISTEMOLOGIA', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'EPISTEMOLOGIA', 'l.assunto': 'PRISÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'EPISTEMOLOGIA', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 
+'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'EPISTEMOLOGIA', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'EPISTEMOLOGIA', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+Itens relacionados ao item  Lugar do mito
+{'m.titulo': 'Razão da recusa', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Bischof, Betina', 'r.score': 0.3125}
+{'m.titulo': 'Estética', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Estética', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Estética', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PRISÃO', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'LITERATURA BRASILEIRA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'ARTES', 'g.nome': 'Pacheco, Ana Paula', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+Itens relacionados ao item  Comunidades imaginadas
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'PRISÃO', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'ARTES', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'NACIONALISMO (HISTÓRIA)', 'l.assunto': 'PROSA', 'g.nome': 'Anderson, Benedict', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.125}
+Itens relacionados ao item  Metamorfoses do espaço habitado
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+Itens relacionados ao item  Poesia completa e prosa
+{'m.titulo': 'Poesia e prosa completas', 't.assunto': 'PROSA', 'l.assunto': 'POESIA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Dias, Gonçalves 1823-1864', 
+'r.score': 1.4375}
+{'m.titulo': 'Poesia e prosa completas', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'POESIA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Dias, Gonçalves 1823-1864', 'r.score': 1.4375}
+{'m.titulo': 'Poesia e prosa completas', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Dias, Gonçalves 1823-1864', 'r.score': 1.4375}
+{'m.titulo': 'Libertinagem', 't.assunto': 'POESIA', 'l.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'Libertinagem', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'Libertinagem', 't.assunto': 'PROSA', 'l.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'PROSA', 'l.assunto': 'POESIA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'PROSA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'PROSA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'PROSA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+Itens relacionados ao item  Teoria da vanguarda
+{'m.titulo': 'Estética', 't.assunto': 'ARTES', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.3125}
+{'m.titulo': 'Estética', 't.assunto': 'ARTES', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.3125}
+{'m.titulo': 'Estética', 't.assunto': 'ARTES', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.3125}  
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'ARTES', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'ARTES', 'l.assunto': 'CULTURA (HISTORIOGRAFIA)', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'ARTES', 'l.assunto': 'HISTÓRIA MUNDIAL', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'ARTES', 'l.assunto': 'CULTURA', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'AVANT-GARDE', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'AVANT-GARDE', 'l.assunto': 'CULTURA (HISTORIOGRAFIA)', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'AVANT-GARDE', 'l.assunto': 'HISTÓRIA MUNDIAL', 'g.nome': 'Bürger, Peter 1936-', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.3125}
+Itens relacionados ao item  Primeiras estórias
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'CONTO', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'CONTO', 'l.assunto': 'PRISÃO', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'CONTO', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'CONTO', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'CONTO', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CONTO', 'l.assunto': 'ARTES', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CONTO', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CONTO', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CONTO', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'CONTO', 'l.assunto': 'PROSA', 'g.nome': 'Rosa, Guimarães 1908-1967', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.125}
+Itens relacionados ao item  O rito e o tempo
+{'m.titulo': 'Carnavais, Malandros E Herois', 't.assunto': 'CARNAVAL', 'l.assunto': 'CARNAVAL', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Matta, Roberto da', 'r.score': 0.3125}
+{'m.titulo': 'Quem tem medo da geopolítica?', 't.assunto': 'CARNAVAL', 'l.assunto': 'GEOGRAFIA POLÍTICA', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Mello, Leonel Itaussu Almeida', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CARNAVAL', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 
+1954-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CARNAVAL', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CARNAVAL', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CARNAVAL', 'l.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 
+1954-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'CARNAVAL', 'l.assunto': 'DIÁRIOS', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Magalhães, Couto de 1837-1898', 'r.score': 0.125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'CARNAVAL', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 
+'Magalhães, Couto de 1837-1898', 'r.score': 0.125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'CARNAVAL', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'CARNAVAL', 'l.assunto': 'POESIA', 'g.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.125}
+Itens relacionados ao item  Urbanismo em fim de linha
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'l.assunto': 'METAFÍSICA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'l.assunto': 'FILOSOFIA MODERNA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'ARQUITETURA MODERNA', 'l.assunto': 'METAFÍSICA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'ARQUITETURA MODERNA', 'l.assunto': 'FILOSOFIA MODERNA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'ARQUITETURA', 'l.assunto': 'METAFÍSICA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'ARQUITETURA', 'l.assunto': 'FILOSOFIA MODERNA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'URBANIZAÇÃO', 'l.assunto': 'METAFÍSICA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'URBANIZAÇÃO', 'l.assunto': 'FILOSOFIA MODERNA', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.5}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'URBANIZAÇÃO', 'l.assunto': 'PRISÃO', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Foucault, Michel 1926-1984', 
+'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'URBANIZAÇÃO', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Arantes, Otília Beatriz Fiori', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+Itens relacionados ao item  Os arquétipos literários
+{'m.titulo': 'A carne, a morte e o diabo na literatura romântica', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'TEORIA LITERÁRIA', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Praz, Mario 1896-1982', 'r.score': 0.3125}
+{'m.titulo': 'A carne, a morte e o diabo na literatura romântica', 't.assunto': 'LITERATURA', 'l.assunto': 'TEORIA LITERÁRIA', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Praz, Mario 1896-1982', 'r.score': 0.3125}
+{'m.titulo': 'A carne, a morte e o diabo na literatura romântica', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'TEORIA LITERÁRIA', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Praz, Mario 1896-1982', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'Women in literature', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.125}
+{'m.titulo': 'Molde nacional e fôrma cívica', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Carvalho, Marta Maria Chagas de', 'r.score': 0.125}
+{'m.titulo': 'Molde nacional e fôrma cívica', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'EDUCAÇÃO', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Carvalho, Marta Maria Chagas de', 'r.score': 0.125}
+{'m.titulo': 'Pontos e bordados', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'HISTÓRIA DO BRASIL', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Carvalho, José Murilo de', 
+'r.score': 0.125}
+{'m.titulo': 'Pontos e bordados', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'PRIMEIRA REPÚBLICA (1889-1930)', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Carvalho, José 
+Murilo de', 'r.score': 0.125}
+{'m.titulo': 'Pontos e bordados', 't.assunto': 'ARQUÉTIPOS', 'l.assunto': 'IDEOLOGIA POLÍTICA', 'g.nome': 'Meletínski, E. M.', 'h.nome': 'Carvalho, José Murilo de', 
+'r.score': 0.125}
+Itens relacionados ao item  O espaço do cidadão
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CIDADANIA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CIDADANIA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CIDADANIA', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, 
+Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'CIDADANIA', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA URBANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA URBANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+Itens relacionados ao item  Espaço e método
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'POLÍTICA SOCIAL', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'POLÍTICA SOCIAL', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'POLÍTICA SOCIAL', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'POLÍTICA SOCIAL', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA HUMANA', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (METODOLOGIA)', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (METODOLOGIA)', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.1875}
+Itens relacionados ao item  Mulheres de papel
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'CRÍTICA', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'INTERPRETAÇÃO', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'POESIA', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Rosenbaum, Yudith 1957-', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Rosenbaum, Yudith 1957-', 'r.score': 0.3125}
+{'m.titulo': '1930', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Ribeiro, Luis Filipe', 'h.nome': 'Lafetá, João Luiz 1946-1996', 'r.score': 0.3125}
+Itens relacionados ao item  Molde nacional e fôrma cívica
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'PRISÃO', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Foucault, Michel 
+1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'ARTES', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Bürger, Peter 
+1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Bürger, 
+Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'HISTÓRIA DA EDUCAÇÃO', 'l.assunto': 'PROSA', 'g.nome': 'Carvalho, Marta Maria Chagas de', 'h.nome': 'Bandeira, 
+Manuel 1886-1968', 'r.score': 0.125}
+Itens relacionados ao item  Pontos e bordados
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'HISTÓRIA DO BRASIL', 'l.assunto': 'CIDADANIA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'HISTÓRIA DO BRASIL', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'HISTÓRIA DO BRASIL', 'l.assunto': 'GEOGRAFIA URBANA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'PRIMEIRA REPÚBLICA (1889-1930)', 'l.assunto': 'CIDADANIA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'PRIMEIRA REPÚBLICA (1889-1930)', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'PRIMEIRA REPÚBLICA (1889-1930)', 'l.assunto': 'GEOGRAFIA URBANA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'CIDADANIA', 'l.assunto': 'GLOBALIZAÇÃO', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'CIDADANIA', 'l.assunto': 'POLÍTICA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'POLÍTICA', 'l.assunto': 'CIDADANIA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'POLÍTICA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Carvalho, José Murilo de', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+Itens relacionados ao item  Mecenato pombalino e poesia neoclássica
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'PROSA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Bandeira, Manuel 1886-1968', 
+'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'POESIA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'POESIA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'POESIA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'DIÁRIOS', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Magalhães, Couto de 1837-1898', 'r.score': 0.3125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'HISTÓRIA DA EUROPA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Teixeira, Ivan', 'h.nome': 'Magalhães, Couto de 1837-1898', 'r.score': 0.3125}
+Itens relacionados ao item  Diário íntimo
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'DIÁRIOS', 'l.assunto': 'PROSA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'DIÁRIOS', 'l.assunto': 'POESIA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'DIÁRIOS', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'DIÁRIOS', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'DIÁRIOS', 'l.assunto': 'POESIA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'DIÁRIOS', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'DIÁRIOS', 'l.assunto': 'POESIA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'DIÁRIOS', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'DIÁRIOS', 'l.assunto': 'ILUMINISMO', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Magalhães, Couto de 1837-1898', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+Itens relacionados ao item  Metamorfoses do espaço habitado
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'PENSAMENTO GEOGRÁFICO', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 1.9375}
+Itens relacionados ao item  Quem tem medo da geopolítica?
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Mello, Leonel 
+Itaussu Almeida', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'PRISÃO', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'ARTES', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'GEOGRAFIA POLÍTICA', 'l.assunto': 'PROSA', 'g.nome': 'Mello, Leonel Itaussu Almeida', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.125}
+Itens relacionados ao item  Carnavais, Malandros E Herois
+{'m.titulo': 'O rito e o tempo', 't.assunto': 'CARNAVAL', 'l.assunto': 'CARNAVAL', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'r.score': 0.3125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CARNAVAL', 'l.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CARNAVAL', 'l.assunto': 'ARQUITETURA', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CARNAVAL', 'l.assunto': 'ARQUITETURA MODERNA', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CARNAVAL', 'l.assunto': 'URBANIZAÇÃO', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Primeiras estórias', 't.assunto': 'CARNAVAL', 'l.assunto': 'CONTO', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Rosa, Guimarães 1908-1967', 'r.score': 0.125}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'CARNAVAL', 'l.assunto': 'METAFÍSICA', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.125}
+{'m.titulo': 'Kant e o fim da metafísica', 't.assunto': 'CARNAVAL', 'l.assunto': 'FILOSOFIA MODERNA', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Lebrun, Gérard 1930-1999', 'r.score': 0.125}
+{'m.titulo': 'Libertinagem', 't.assunto': 'CARNAVAL', 'l.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'CARNAVAL', 'l.assunto': 'CRÍTICA', 'g.nome': 'Matta, Roberto da', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.125}
+Itens relacionados ao item  Poesia e prosa completas
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA', 'l.assunto': 'PROSA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 1.4375}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Bandeira, Manuel 1886-1968', 
+'r.score': 1.4375}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 1.4375}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'POESIA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'A educação pela pedra e depois', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Melo Neto, João Cabral de 1920-1999', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Dias, Gonçalves 1823-1864', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+Itens relacionados ao item  A carne, a morte e o diabo na literatura romântica
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'TEORIA LITERÁRIA', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Meletínski, 
+E. M.', 'r.score': 0.3125}
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'ARQUÉTIPOS', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Meletínski, E. M.', 'r.score': 0.3125}
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'LITERATURA', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Meletínski, E. M.', 'r.score': 0.3125}
+{'m.titulo': 'Quem tem medo da geopolítica?', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'GEOGRAFIA POLÍTICA', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Mello, Leonel Itaussu Almeida', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'DIÁRIOS', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Magalhães, Couto de 1837-1898', 
+'r.score': 0.125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'TEORIA LITERÁRIA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Praz, Mario 1896-1982', 'h.nome': 'Magalhães, Couto de 1837-1898', 'r.score': 0.125}
+Itens relacionados ao item  A arte de descrever
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'PRISÃO', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'ARTES', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 
+0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'PERCEPÇÃO VISUAL', 'l.assunto': 'PROSA', 'g.nome': 'Alpers, Svetlana', 'h.nome': 'Bandeira, Manuel 1886-1968', 
+'r.score': 0.125}
+Itens relacionados ao item  A nação como artefato
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'PRISÃO', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Foucault, Michel 1926-1984', 
+'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'ARTES', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Bürger, Peter 
+1936-', 'r.score': 0.125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POLÍTICA E GOVERNO', 'l.assunto': 'PROSA', 'g.nome': 'Berbel, Márcia Regina', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.125}
+Itens relacionados ao item  Coroas de glória, lágrimas de sangue
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'HISTÓRIA LATINO-AMERICANA', 'l.assunto': 'Slavery', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'HISTÓRIA LATINO-AMERICANA', 'l.assunto': 'Slaves', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'HISTÓRIA LATINO-AMERICANA', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'HISTÓRIA LATINO-AMERICANA', 'l.assunto': 'ESCRAVOS (HISTÓRIA)', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slavery', 'l.assunto': 'Slavery', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slavery', 'l.assunto': 'Slaves', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slavery', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slavery', 'l.assunto': 'ESCRAVOS (HISTÓRIA)', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A sociedade do espetáculo', 't.assunto': 'Slavery', 'l.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Debord, Guy 1931-1994', 'r.score': 0.125}
+{'m.titulo': 'A sociedade do espetáculo', 't.assunto': 'Slavery', 'l.assunto': 'HISTÓRIA SOCIAL', 'g.nome': 'Costa, Emília Viotti da 1928-', 'h.nome': 'Debord, Guy 1931-1994', 'r.score': 0.125}
+Itens relacionados ao item  Figurações Brasil anos 60
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'ARTES', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'ARTES', 'l.assunto': 'ARTES', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'ARTES', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'ARTES', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'ARTES', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Bürger, Peter 
+1936-', 'r.score': 0.3125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'HISTÓRIA DA ARTE', 'l.assunto': 'ARQUITETURA', 'g.nome': 'Alvarado, Daisy V. M. Peccinini de', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+Itens relacionados ao item  Nem tudo era italiano
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TRABALHO', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TRABALHO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TRABALHO', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'TRABALHO', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'VIDA URBANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'VIDA URBANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 
+'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'VIDA URBANA', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'VIDA URBANA', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'SOCIOLOGIA URBANA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Carlos José Ferreira dos', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+Itens relacionados ao item  1930
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'CRÍTICA', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'INTERPRETAÇÃO', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'POESIA', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'Women in literature', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'CRÍTICA LITERÁRIA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Lafetá, João Luiz 1946-1996', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+Itens relacionados ao item  Por uma outra globalização
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'GEOGRAFIA (TEORIA;MÉTODOS)', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'DISTRIBUIÇÃO ESPACIAL', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Espaço e método', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'POLÍTICA SOCIAL', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+{'m.titulo': 'Espaço e método', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Santos, Mílton 1926-2001', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.625}
+Itens relacionados ao item  Metamorfoses do mal
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, 
+Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'PENSAMENTO GEOGRÁFICO', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'SOCIOLOGIA URBANA', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Metamorfoses do espaço habitado', 't.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'l.assunto': 'ESPAÇO URBANO', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.5}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'Women in literature', 'g.nome': 'Rosenbaum, Yudith 1957-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+Itens relacionados ao item  Na senzala, uma flor
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slaves', 'l.assunto': 'Slavery', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slaves', 'l.assunto': 'Slaves', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slaves', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'Slaves', 'l.assunto': 'ESCRAVOS (HISTÓRIA)', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'ESCRAVOS (CONDIÇÕES SOCIAIS)', 'l.assunto': 'Slavery', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'ESCRAVOS (CONDIÇÕES SOCIAIS)', 'l.assunto': 'Slaves', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'ESCRAVOS (CONDIÇÕES SOCIAIS)', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'ESCRAVOS (CONDIÇÕES SOCIAIS)', 'l.assunto': 'ESCRAVOS (HISTÓRIA)', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'FAMÍLIA (FORMAÇÃO)', 'l.assunto': 'Slavery', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'FAMÍLIA (FORMAÇÃO)', 'l.assunto': 'Slaves', 'g.nome': 'Slenes, Robert Wayne', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.3125}
+Itens relacionados ao item  A vida dos escravos no Rio de Janeiro (1808-1850)
+{'m.titulo': 'Coroas de glória, lágrimas de sangue', 't.assunto': 'Slavery', 'l.assunto': 'HISTÓRIA LATINO-AMERICANA', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 
+'Costa, Emília Viotti da 1928-', 'r.score': 0.3125}
+{'m.titulo': 'Coroas de glória, lágrimas de sangue', 't.assunto': 'Slavery', 'l.assunto': 'Slavery', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Costa, Emília Viotti da 1928-', 'r.score': 0.3125}
+{'m.titulo': 'Coroas de glória, lágrimas de sangue', 't.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'l.assunto': 'HISTÓRIA LATINO-AMERICANA', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Costa, Emília Viotti da 1928-', 'r.score': 0.3125}
+{'m.titulo': 'Coroas de glória, lágrimas de sangue', 't.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'l.assunto': 'Slavery', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Costa, Emília Viotti da 1928-', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'ESCRAVOS (HISTÓRIA)', 'l.assunto': 'Slaves', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'ESCRAVOS (HISTÓRIA)', 'l.assunto': 'ESCRAVOS (CONDIÇÕES SOCIAIS)', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'ESCRAVOS (HISTÓRIA)', 'l.assunto': 'RELAÇÕES FAMILIARES', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'ESCRAVOS (HISTÓRIA)', 'l.assunto': 'FAMÍLIA (FORMAÇÃO)', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'ESCRAVOS (HISTÓRIA)', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 0.3125}
+{'m.titulo': 'Na senzala, uma flor', 't.assunto': 'Slavery', 'l.assunto': 'Slaves', 'g.nome': 'Karasch, Mary C. 1943-', 'h.nome': 'Slenes, Robert Wayne', 'r.score': 
+0.3125}
+Itens relacionados ao item  A sociedade do espetáculo
+{'m.titulo': 'Primeiras estórias', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'CONTO', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Rosa, Guimarães 1908-1967', 'r.score': 0.125}
+{'m.titulo': 'O rito e o tempo', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'CARNAVAL', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Cavalcanti, Maria Laura Viveiros de Castro 1954-', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'ARQUITETURA', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'ARQUITETURA MODERNA', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 
+'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'URBANIZAÇÃO', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.125}
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'TEORIA LITERÁRIA', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Meletínski, E. M.', 'r.score': 0.125}
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'ARQUÉTIPOS', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Meletínski, E. M.', 'r.score': 0.125}
+{'m.titulo': 'Os arquétipos literários', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'LITERATURA', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Meletínski, E. M.', 'r.score': 0.125}
+{'m.titulo': 'O espaço do cidadão', 't.assunto': 'CIVILIZAÇÃO CONTEMPORÂNEA', 'l.assunto': 'CIDADANIA', 'g.nome': 'Debord, Guy 1931-1994', 'h.nome': 'Santos, Mílton 
+1926-2001', 'r.score': 0.125}
+Itens relacionados ao item  A educação pela pedra e depois
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'PROSA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'POESIA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 
+'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'POESIA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'DIÁRIOS', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Magalhães, Couto de 1837-1898', 'r.score': 0.3125}
+{'m.titulo': 'Diário íntimo', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 
+'Magalhães, Couto de 1837-1898', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'LITERATURA BRASILEIRA', 'l.assunto': 'POESIA', 'g.nome': 'Melo Neto, João Cabral de 1920-1999', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+Itens relacionados ao item  Variedades de história cultural
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'HISTÓRIA CULTURAL', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.5}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'CULTURA (HISTORIOGRAFIA)', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.5}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'CULTURA', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.5}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'HISTÓRIA MUNDIAL', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.5}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA CULTURAL', 'l.assunto': 'ARTES', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA CULTURAL', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA CULTURAL', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'HISTÓRIA CULTURAL', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CULTURA (HISTORIOGRAFIA)', 'l.assunto': 'ARTES', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'CULTURA (HISTORIOGRAFIA)', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Burke, Peter 1937-', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.3125}
+Itens relacionados ao item  As artes de enganar
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'POESIA', 'l.assunto': 'Women in literature', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'HISTÓRIA DA EUROPA', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Mecenato pombalino e poesia neoclássica', 't.assunto': 'POESIA', 'l.assunto': 'ILUMINISMO', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Teixeira, Ivan', 'r.score': 0.3125}
+{'m.titulo': 'Poesia e prosa completas', 't.assunto': 'POESIA', 'l.assunto': 'POESIA', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Dias, Gonçalves 1823-1864', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'POESIA', 'l.assunto': 'CRÍTICA', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 
+0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'POESIA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+{'m.titulo': 'Cecília Meireles;', 't.assunto': 'POESIA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Espínola, Adriano 1952-', 'h.nome': 'Damasceno, Darcy 1922-', 'r.score': 0.3125}
+Itens relacionados ao item  As cidades na economia mundial
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'CIDADES (ASPECTOS SOCIOECONÔMICOS)', 'l.assunto': 'GLOBALIZAÇÃO', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'CIDADES (ASPECTOS SOCIOECONÔMICOS)', 'l.assunto': 'POLÍTICA', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'RELAÇÕES ECONÔMICAS INTERNACIONAIS', 'l.assunto': 'GLOBALIZAÇÃO', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'RELAÇÕES ECONÔMICAS INTERNACIONAIS', 'l.assunto': 'POLÍTICA', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'GLOBALIZAÇÃO', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'Por uma outra globalização', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'POLÍTICA', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.3125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'Slavery', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'Slaves', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'ESCRAVIDÃO (HISTÓRIA)', 'g.nome': 'Sassen, Saskia 1949-', 'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.125}
+{'m.titulo': 'A vida dos escravos no Rio de Janeiro (1808-1850)', 't.assunto': 'GLOBALIZAÇÃO', 'l.assunto': 'ESCRAVOS (HISTÓRIA)', 'g.nome': 'Sassen, Saskia 1949-', 
+'h.nome': 'Karasch, Mary C. 1943-', 'r.score': 0.125}
+Itens relacionados ao item  Cecília Meireles;
+{'m.titulo': 'As artes de enganar', 't.assunto': 'CRÍTICA', 'l.assunto': 'POESIA', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'CRÍTICA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 
+'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'As artes de enganar', 't.assunto': 'CRÍTICA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Espínola, Adriano 1952-', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'CRÍTICA', 'l.assunto': 'BIOGRAFIAS', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Rosenbaum, Yudith 1957-', 'r.score': 0.3125}
+{'m.titulo': 'Metamorfoses do mal', 't.assunto': 'CRÍTICA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 
+'Rosenbaum, Yudith 1957-', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'CRÍTICA', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'CRÍTICA', 'l.assunto': 'Women in literature', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': 'Mulheres de papel', 't.assunto': 'BIOGRAFIAS', 'l.assunto': 'Women in literature', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Ribeiro, Luis Filipe', 'r.score': 0.3125}
+{'m.titulo': '1930', 't.assunto': 'INTERPRETAÇÃO', 'l.assunto': 'LITERATURA BRASILEIRA (HISTÓRIA E CRÍTICA)', 'g.nome': 'Damasceno, Darcy 1922-', 'h.nome': 'Lafetá, 
+João Luiz 1946-1996', 'r.score': 0.3125}
+Itens relacionados ao item  Libertinagem
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PROSA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'POESIA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'Poesia completa e prosa', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'LITERATURA BRASILEIRA', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bandeira, Manuel 1886-1968', 'r.score': 0.625}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PRISÃO', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Foucault, 
+Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'ARTES', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+{'m.titulo': 'Teoria da vanguarda', 't.assunto': 'POESIA (CRÍTICA E INTERPRETAÇÃO)', 'l.assunto': 'AVANT-GARDE', 'g.nome': 'Bandeira, Manuel 1886-1968', 'h.nome': 'Bürger, Peter 1936-', 'r.score': 0.125}
+Itens relacionados ao item  Kant e o fim da metafísica
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'METAFÍSICA', 'l.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 
+'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'METAFÍSICA', 'l.assunto': 'ARQUITETURA', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'METAFÍSICA', 'l.assunto': 'ARQUITETURA MODERNA', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'METAFÍSICA', 'l.assunto': 'URBANIZAÇÃO', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'PLANEJAMENTO TERRITORIAL URBANO', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'ARQUITETURA', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'ARQUITETURA MODERNA', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Urbanismo em fim de linha', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'URBANIZAÇÃO', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Arantes, Otília Beatriz Fiori', 'r.score': 0.5}
+{'m.titulo': 'Espaço e método', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'POLÍTICA SOCIAL', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+{'m.titulo': 'Espaço e método', 't.assunto': 'FILOSOFIA MODERNA', 'l.assunto': 'GEOGRAFIA HUMANA', 'g.nome': 'Lebrun, Gérard 1930-1999', 'h.nome': 'Santos, Mílton 1926-2001', 'r.score': 0.125}
+Itens relacionados ao item  Vigiar e punir
+{'m.titulo': 'Estética', 't.assunto': 'PRISÃO', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'PRISÃO', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'PRISÃO', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'PRISÃO', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'PUNIÇÃO', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'PUNIÇÃO', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'PUNIÇÃO', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 
+0.625}
+{'m.titulo': 'História da sexualidade 1', 't.assunto': 'PUNIÇÃO', 'l.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'DIREITO PENAL', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'DIREITO PENAL', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 
+'r.score': 0.625}
+Itens relacionados ao item  História da sexualidade 1
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'PRISÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'PUNIÇÃO', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'DIREITO PENAL', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Vigiar e punir', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'CRIMINALIDADE', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'FILOSOFIA CONTEMPORÂNEA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'EPISTEMOLOGIA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Estética', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'ESTÉTICA', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Foucault, Michel 1926-1984', 'r.score': 0.625}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'HISTÓRIA CULTURAL', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.5}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'CULTURA (HISTORIOGRAFIA)', 'g.nome': 'Foucault, Michel 1926-1984', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.5}
+{'m.titulo': 'Variedades de história cultural', 't.assunto': 'SEXUALIDADE (HISTÓRIA;TEORIA;ASPECTOS SOCIAIS)', 'l.assunto': 'HISTÓRIA MUNDIAL', 'g.nome': 'Foucault, 
+Michel 1926-1984', 'h.nome': 'Burke, Peter 1937-', 'r.score': 0.5}
