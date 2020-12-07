@@ -30,16 +30,20 @@ def createRelUsuarioAssunto(usuario, assunto):
   rel = Relationship(m, "TEM_PREFERÊNCIA_POR", n)
   graph.create(rel)
 
-usuarios = [18123,
-5222,
-3161,
-23256,
-22317,
-8132,
-17130,
-18123]
+usuarios = [2044,
+7786,
+9082,
+20029,
+6644,
+890,
+6943,
+4811,
+6943,
+4544,
+2106]
 
-assuntos = assuntos_item("$$a1999072314181")
+
+assuntos = assuntos_item("20170626125500.0")
 assuntos_list = []
 for assunto in assuntos:
     assuntos_list.append(assunto['m.assunto'])
@@ -47,6 +51,6 @@ print(assuntos_list)
 
 for usr in usuarios:
     createUsuario(usr)
-    createRelEmprestimo(usr,"$$a1999072314181")
+    createRelEmprestimo(usr,"20170626125500.0")
     for assunto in assuntos_list:
         createRelUsuarioAssunto(usr, assunto)

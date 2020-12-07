@@ -3,13 +3,16 @@
 import xml.etree.ElementTree as ET
 import re
 import py2neo
+import time
 from py2neo import Graph, Node, NodeMatcher, Relationship
-pattern = re.compile("^([a-z]+)$")
+#pattern = re.compile("^([a-z]+)$")
+
+inicio = time.time()
 
 #arquivo = open('SAV1425925.xml', 'r', encoding = 'utf8')
 # SAV1421269
 
-mytree = ET.parse('itens_ieb.xml')
+mytree = ET.parse('itens_ieb_auto.xml')
 myroot = mytree.getroot()
 
 # myroot é o collection
@@ -291,143 +294,148 @@ graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="senha")
 
 # records são os filhos do myroot
 for child in myroot:
-  itens = allItens()
-  print("Número de itens = ", len(itens))
-  properties = dict()
-  autor_text = ''
-  assunto_list = []
-  material = ''
-  autor_sec_list = []
-  local = ''
-  for data in child.iter("{http://www.loc.gov/MARC21/slim}datafield"):
-      if data.attrib.get('tag') == '041':
-        idioma = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
-        properties["idioma"] = idioma
-      if data.attrib.get('tag') == '044':
-        pais = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
-        properties["pais"] = pais
-      if data.attrib.get('tag') == '100':
-        autor = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
-        autor_text = ''
-        for i in range(0, len(autor)):
-          autor_text += autor[i].text + " "
-        autor_text = autor_text[:-1]
-        matcher = NodeMatcher(graph)
-        m = matcher.match("Autor", nome=autor_text).first()
-        if m is None:
-          #print(autor_text)
-          createAutor(autor_text)
-      if data.attrib.get('tag') == '700':
-        autor2 = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
-        autor2_text = ''
-        for i in range(0, len(autor2)):
-          autor2_text += autor2[i].text + " "
-        autor2_text = autor2_text[:-1]
-        autor_sec_list.append(autor2_text)
-        m = matcher.match("Autor Secundário", nome=autor2_text).first()
-        if m is None:
-          #print(autor_text)
-          createAutorSec(autor2_text)
-      if data.attrib.get('tag') == '650':
-        assunto = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
-        matcher = NodeMatcher(graph)
-        assunto_list.append(assunto)
-        m = matcher.match("Assunto", assunto=assunto).first()
-        if m is None:
-          #print(autor_text)
-          createAssunto(assunto)
-      if data.attrib.get('tag') == '245':
-        titulo = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
-        properties["titulo"] = titulo
-      if data.attrib.get('tag') == '945':
-        material = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='b']").text
-        matcher = NodeMatcher(graph)
-        m = matcher.match("Tipo de Material", tipo=material).first()
-        if m is None:
-          #print(autor_text)
-          createMaterial(material)
-      if data.attrib.get('tag') == '260':
-        imprenta = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
-        imprenta_text = ''
-        for i in range(0, len(imprenta)):
-          imprenta_text += imprenta[i].text + " "
-        imprenta_text = imprenta_text[:-1]
-        properties["imprenta"] = imprenta_text
-      if data.attrib.get('tag') == '300':
-        desc = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
-        desc_text = ''
-        for i in range(0, len(desc)):
-          desc_text += desc[i].text + " "
-        desc_text = desc_text[:-1]
-        properties["desc_fisica"] = desc_text
-      if data.attrib.get('tag') == '500':
-        nota = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
-        nota_text = ''
-        for i in range(0, len(nota)):
-          nota_text += nota[i].text + " "
-        properties["nota"] = nota_text
-      if data.attrib.get('tag') == '946':
-        local1 = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='e']").text
-        #print(local1)
-        local2 = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='f']").text
-        local = local1 + ' ' + local2
-        matcher = NodeMatcher(graph)
-        m = matcher.match("Biblioteca", biblioteca=local).first()
-        if m is None:
-          #print(autor_text)
-          createBiblioteca(local)
-  for data in child.iter("{http://www.loc.gov/MARC21/slim}controlfield"):
-    if data.attrib.get('tag') == '005':
-      isbn = data.text
-      #print(isbn)
-      properties["isbn"] = isbn
-  #items.append(properties)
-  createItem(properties)
-  if autor_text != '':
-    #print(autor_text)
-    createRelAutor(properties, autor_text)
-  if assunto_list != []:
-    #print(assunto_list)
-    for element in assunto_list:
-      createRelAssunto(properties, element)
-  if autor_sec_list != []:
-    #print(autor_sec_list)
-    for element in autor_sec_list:
-      createRelAutorSec(properties, element)
-  if material != '':
-    #print(assunto)
-    createRelMaterial(properties, material)
-  if local != '':
-    #print(assunto)
-    createRelBiblioteca(properties, local)
-  else:
-    matcher = NodeMatcher(graph)
-    m = matcher.match("Biblioteca", biblioteca=biblioteca).first()
-    if m is None:
+  try:
+    itens = allItens()
+    print("Número de itens = ", len(itens))
+    properties = dict()
+    autor_text = ''
+    assunto_list = []
+    material = ''
+    autor_sec_list = []
+    local = ''
+    for data in child.iter("{http://www.loc.gov/MARC21/slim}datafield"):
+        if data.attrib.get('tag') == '041':
+          idioma = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
+          properties["idioma"] = idioma
+        if data.attrib.get('tag') == '044':
+          pais = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
+          properties["pais"] = pais
+        if data.attrib.get('tag') == '100':
+          autor = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
+          autor_text = ''
+          for i in range(0, len(autor)):
+            autor_text += autor[i].text + " "
+          autor_text = autor_text[:-1]
+          matcher = NodeMatcher(graph)
+          m = matcher.match("Autor", nome=autor_text).first()
+          if m is None:
+            #print(autor_text)
+            createAutor(autor_text)
+        if data.attrib.get('tag') == '700':
+          autor2 = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
+          autor2_text = ''
+          for i in range(0, len(autor2)):
+            autor2_text += autor2[i].text + " "
+          autor2_text = autor2_text[:-1]
+          autor_sec_list.append(autor2_text)
+          m = matcher.match("Autor Secundário", nome=autor2_text).first()
+          if m is None:
+            #print(autor_text)
+            createAutorSec(autor2_text)
+        if data.attrib.get('tag') == '650':
+          assunto = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
+          matcher = NodeMatcher(graph)
+          assunto_list.append(assunto)
+          m = matcher.match("Assunto", assunto=assunto).first()
+          if m is None:
+            #print(autor_text)
+            createAssunto(assunto)
+        if data.attrib.get('tag') == '245':
+          titulo = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='a']").text
+          properties["titulo"] = titulo
+        if data.attrib.get('tag') == '945':
+          material = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='b']").text
+          matcher = NodeMatcher(graph)
+          m = matcher.match("Tipo de Material", tipo=material).first()
+          if m is None:
+            #print(autor_text)
+            createMaterial(material)
+        if data.attrib.get('tag') == '260':
+          imprenta = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
+          imprenta_text = ''
+          for i in range(0, len(imprenta)):
+            imprenta_text += imprenta[i].text + " "
+          imprenta_text = imprenta_text[:-1]
+          properties["imprenta"] = imprenta_text
+        if data.attrib.get('tag') == '300':
+          desc = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
+          desc_text = ''
+          for i in range(0, len(desc)):
+            desc_text += desc[i].text + " "
+          desc_text = desc_text[:-1]
+          properties["desc_fisica"] = desc_text
+        if data.attrib.get('tag') == '500':
+          nota = data.findall("./{http://www.loc.gov/MARC21/slim}subfield")
+          nota_text = ''
+          for i in range(0, len(nota)):
+            nota_text += nota[i].text + " "
+          properties["nota"] = nota_text
+        if data.attrib.get('tag') == '946':
+          local1 = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='e']").text
+          #print(local1)
+          local2 = data.find("./{http://www.loc.gov/MARC21/slim}subfield[@code='f']").text
+          local = local1 + ' ' + local2
+          matcher = NodeMatcher(graph)
+          m = matcher.match("Biblioteca", biblioteca=local).first()
+          if m is None:
+            #print(autor_text)
+            createBiblioteca(local)
+    for data in child.iter("{http://www.loc.gov/MARC21/slim}controlfield"):
+      if data.attrib.get('tag') == '005':
+        isbn = data.text
+        #print(isbn)
+        properties["isbn"] = isbn
+    #items.append(properties)
+    createItem(properties)
+    if autor_text != '':
       #print(autor_text)
-      createBiblioteca(biblioteca)
-    createRelBiblioteca(properties, biblioteca)
-  print("ITEM ",properties['titulo']," INSERIDO")
-  # criação do relacionamento com os outros itens da base
-  for item2 in itens:
-    item2 = dict(item2['n'])
-    print("RELACIONAMENTO COM ITEM ",item2['titulo'])
-    score_autores = autores_iguais(properties['isbn'], item2['isbn'])
-    #print("score_autores = ", score_autores)
-    score_assuntos = assuntos_comum_itens(properties['isbn'], item2['isbn'])
-    #print("score_assuntos = ", score_assuntos)
-    score_material = material_comum_itens(properties['isbn'], item2['isbn'])
-    #print("score_material = ", score_material)
-    score_biblioteca = biblioteca_comum_itens(properties['isbn'], item2['isbn'])
-    #print("score_biblioteca = ", score_biblioteca)
-    score_titulo = index_itens(properties['isbn'], item2['isbn'])
-    #print("score_titulo = ", score_titulo)
-    score_nota = index_itens(properties['isbn'], item2['isbn'])
-    #print("score_nota = ", score_nota)
-    score = (8*score_autores + 3*score_assuntos + 1*score_material + 1*score_biblioteca + 5*score_titulo + 1*score_nota)/16
-    if score != 0.0:
-      createRelItens(properties['isbn'], item2['isbn'], score)
+      createRelAutor(properties, autor_text)
+    if assunto_list != []:
+      #print(assunto_list)
+      for element in assunto_list:
+        createRelAssunto(properties, element)
+    if autor_sec_list != []:
+      #print(autor_sec_list)
+      for element in autor_sec_list:
+        createRelAutorSec(properties, element)
+    if material != '':
+      #print(assunto)
+      createRelMaterial(properties, material)
+    if local != '':
+      #print(assunto)
+      createRelBiblioteca(properties, local)
+    else:
+      matcher = NodeMatcher(graph)
+      m = matcher.match("Biblioteca", biblioteca=biblioteca).first()
+      if m is None:
+        #print(autor_text)
+        createBiblioteca(biblioteca)
+      createRelBiblioteca(properties, biblioteca)
+    print("ITEM ",properties['titulo']," INSERIDO")
+    # criação do relacionamento com os outros itens da base
+    for item2 in itens:
+      item2 = dict(item2['n'])
+      print("RELACIONAMENTO COM ITEM ",item2['titulo'])
+      score_autores = autores_iguais(properties['isbn'], item2['isbn'])
+      #print("score_autores = ", score_autores)
+      score_assuntos = assuntos_comum_itens(properties['isbn'], item2['isbn'])
+      #print("score_assuntos = ", score_assuntos)
+      score_material = material_comum_itens(properties['isbn'], item2['isbn'])
+      #print("score_material = ", score_material)
+      score_biblioteca = biblioteca_comum_itens(properties['isbn'], item2['isbn'])
+      #print("score_biblioteca = ", score_biblioteca)
+      score_titulo = index_itens(properties['isbn'], item2['isbn'])
+      #print("score_titulo = ", score_titulo)
+      score_nota = index_itens(properties['isbn'], item2['isbn'])
+      #print("score_nota = ", score_nota)
+      score = (8*score_autores + 3*score_assuntos + 1*score_material + 1*score_biblioteca + 5*score_titulo + 1*score_nota)/16
+      if score != 0.0:
+        createRelItens(properties['isbn'], item2['isbn'], score)
+  except:
+    print("An exception occurred")
 
+fim = time.time()
+print(fim - inicio)
 
 # score_autores = autores_iguais("20200918225200.0", "20191119103535.0")
 # print("score_autores = ", score_autores)

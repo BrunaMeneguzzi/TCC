@@ -8,10 +8,8 @@ mytree = ET.parse('SAV1431425.xml')
 myroot = mytree.getroot()
 
 def recomendacao(item):
-    nodes = graph.run('''MATCH p=(n:Item {isbn:"''' + item + '''"})-[r:ITENS_SEMELHANTES]-(m:Item), 
-    (g:Autor)-[:É_AUTOR_DE]->(n), (h:Autor)-[:É_AUTOR_DE]->(m), (n)-[:PERTENCE_AO_ASSUNTO]->(t:Assunto), 
-    (m)-[:PERTENCE_AO_ASSUNTO]->(l:Assunto) RETURN m.titulo, t.assunto, l.assunto, g.nome, h.nome, 
-    r.score ORDER BY r.score DESC LIMIT 10''').data()
+    nodes = graph.run('''MATCH p=(n:Item {isbn:"''' + item + '''"})-[r:ITENS_SEMELHANTES]-(m:Item) 
+    RETURN m.titulo, r.score ORDER BY r.score DESC LIMIT 10''').data()
     #print(nodes)
     return nodes
 
