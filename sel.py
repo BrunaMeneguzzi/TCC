@@ -387,6 +387,8 @@ names = ["Fluxo-floema.",
 "Manual da redação : as normas de escrita e conduta do principal jornal do país.",
 "História econômica e social do estado de São Paulo."]
 
+names2 = ['Macunaíma']
+
 for name in names:
     try:
         DRIVER_PATH = 'C:/Users/BrunaMeneguzzi/Downloads/chromedriver'
