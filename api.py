@@ -402,38 +402,35 @@ for child in myroot:
         createRelAutorSec(properties, element)
     if material != '':
       createRelMaterial(properties, material)
-    if local != '':
-      createRelBiblioteca(properties, local)
-    else:
-      matcher = NodeMatcher(graph)
-      m = matcher.match("Biblioteca", biblioteca=biblioteca).first()
-      if m is None:
-        createBiblioteca(biblioteca)
-      createRelBiblioteca(properties, biblioteca)
+    matcher = NodeMatcher(graph)
+    m = matcher.match("Biblioteca", biblioteca=biblioteca).first()
+    if m is None:
+      createBiblioteca(biblioteca)
+    createRelBiblioteca(properties, biblioteca)
     print("ITEM ",properties['titulo']," INSERIDO")
 
     # criação do relacionamento com os outros itens da base
-    for item2 in itens:
-      item2 = dict(item2['n'])
-      #print(item2['isbn'])
-      #print("RELACIONAMENTO COM ITEM ",item2['titulo'])
-      score_autores = autores_iguais(properties['isbn'], item2['isbn'])
-      #print("score_autores = ", score_autores)
-      score_autores2 = autores2_iguais(properties['isbn'], item2['isbn'])
-      #print("score_autores = ", score_autores)
-      score_assuntos = assuntos_comum_itens(properties['isbn'], item2['isbn'])
-      #print("score_assuntos = ", score_assuntos)
-      score_material = material_comum_itens(properties['isbn'], item2['isbn'])
-      #print("score_material = ", score_material)
-      score_biblioteca = biblioteca_comum_itens(properties['isbn'], item2['isbn'])
-      #print("score_biblioteca = ", score_biblioteca)
-      score_titulo = index_itens(properties['isbn'], item2['isbn'])
-      #print("score_titulo = ", score_titulo)
-      score_nota = index_itens(properties['isbn'], item2['isbn'])
-      #print("score_nota = ", score_nota)
-      score = (8*score_autores + 3*score_autores2 + 3*score_assuntos + 1*score_material + 1*score_biblioteca + 5*score_titulo + 1*score_nota)/22
-      if score != 0.0:
-        createRelItens(properties['isbn'], item2['isbn'], score)
+    # for item2 in itens:
+    #   item2 = dict(item2['n'])
+    #   #print(item2['isbn'])
+    #   #print("RELACIONAMENTO COM ITEM ",item2['titulo'])
+    #   score_autores = autores_iguais(properties['isbn'], item2['isbn'])
+    #   #print("score_autores = ", score_autores)
+    #   score_autores2 = autores2_iguais(properties['isbn'], item2['isbn'])
+    #   #print("score_autores = ", score_autores)
+    #   score_assuntos = assuntos_comum_itens(properties['isbn'], item2['isbn'])
+    #   #print("score_assuntos = ", score_assuntos)
+    #   score_material = material_comum_itens(properties['isbn'], item2['isbn'])
+    #   #print("score_material = ", score_material)
+    #   score_biblioteca = biblioteca_comum_itens(properties['isbn'], item2['isbn'])
+    #   #print("score_biblioteca = ", score_biblioteca)
+    #   score_titulo = index_itens(properties['isbn'], item2['isbn'])
+    #   #print("score_titulo = ", score_titulo)
+    #   score_nota = index_itens(properties['isbn'], item2['isbn'])
+    #   #print("score_nota = ", score_nota)
+    #   score = (8*score_autores + 3*score_autores2 + 3*score_assuntos + 1*score_material + 5*score_titulo + 1*score_nota)/22
+    #   if score >= 1.0:
+    #     createRelItens(properties['isbn'], item2['isbn'], score)
   except:
     print("An exception occurred")
 

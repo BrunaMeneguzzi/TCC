@@ -1,6 +1,7 @@
 from selenium import webdriver
 import pandas as pd
 import time
+from selenium.webdriver.common.by import By
 
 inicio = time.time()
 
@@ -392,9 +393,12 @@ itens = ["Primeiras estórias",
 "Manual da redação : as normas de escrita e conduta do principal jornal do país", 
 "História econômica e social do estado de São Paulo"]
 
-for name in itens:
-    try:
-        DRIVER_PATH = 'C:/Users/BrunaMeneguzzi/Downloads/chromedriver'
+itens2 = ["Dom Casmurro"]
+numero = ["001218504"]
+
+for name in itens2:
+    #try:
+        DRIVER_PATH = 'C:/Users/brubz/Downloads/chromedriver'
         driver = webdriver.Chrome(executable_path=DRIVER_PATH)
         driver.get('http://dedalus.usp.br/F')
 
@@ -407,13 +411,85 @@ for name in itens:
         driver.find_element_by_xpath("//select[@name='local_base']/option[text()='IEB - Inst. Estudos Brasileiros']").click()
         driver.execute_script("arguments[0].click();",driver.find_element_by_xpath('//input[@type="image"][@src="http://dedalus.usp.br/exlibris/aleph/u23_1/alephe/www_f_por/icon/f-go.gif"]'))
 
-        from selenium.webdriver.common.by import By
-        #Iterar linhas (rows)
-        trs = driver.find_elements(By.TAG_NAME, "tr") 
-        #Iterar células
-        tds = trs[1].find_elements(By.TAG_NAME, "td")
-        #Obter valor das células
-        print(tds[0].text)
+        # #Iterar linhas (rows)
+        # trs = driver.find_elements(By.TAG_NAME, "tr") 
+        # #Iterar células
+        # tds = trs[1].find_elements(By.TAG_NAME, "td")
+        # #Obter valor das células
+        # print(tds[0].text
+
+        #totals_rows = driver.find_elements_by_xpath("html/body/table")
+        #totals_rows_8 = driver.find_elements_by_xpath("html/body/table[8]/tbody")
+        #for row in table:
+        #    count = 1
+        #    site =  "html/body/table[8]/tbody/tr["+count+"]/td[2]"
+        #    print("site name is :"+ driver.find_element_by_xpath(site).text)
+        #    count += 1
+        ##print("type total_rows", type(totals_rows))
+        ##print("len: ", len(totals_rows))
+        #table = totals_rows[8]
+        #elements = driver.find_elements(By.TAG_NAME, 'tr')
+
+        #for e in elements:
+         #   print(e.text)
+        #print(totals_rows[8])
+        #print(type(totals_rows[8]))
+        #print('object:' )
+        #totals_rows2 =chrome.find_elements_by_xpath("html/body/table[8]/tbody/tr")
+        #total_rows_length = len(totals_rows)
+        # pegar os trs dentro da table
+        total_rows = driver.find_elements_by_xpath("html/body/table[8]/tbody//tr")
+        #row_5 = driver.find_elements_by_xpath("html/body/table[8]/tbody/tr[5]")
+        
+        #print('linha 5:::::', len(linha_5))
+        #total_tds = row_5.find_elements_by_xpath("//td[@class='td1']")
+        row_index = 1
+        td_index = 1
+        achou = False
+        for row in driver.find_elements_by_xpath("html/body/table[8]/tbody//tr"):
+            td_index = 1
+            for td in row.find_elements_by_xpath(".//td[@class='td1']"): 
+                if td_index == 4:
+                    button = td.find_element_by_xpath('a')
+                    chrome = webdriver.Chrome(executable_path=DRIVER_PATH)
+                    chrome.get(button.get_attribute('href'))
+                    row_2_index = 1
+                    td_2_index = 1
+                    
+                    for row_2 in chrome.find_elements_by_xpath("html/body/table[7]//tr"):
+                        td_2_index = 1
+                        #print('row_2: ',row_2.text)
+                        for td_2 in row_2.find_elements_by_xpath(".//td[@class='td1']"): 
+                            if td_2_index == 2 and row_2_index == 1: 
+                                if td_2.text == numero[0]:
+                                    print('achou!!!!!!!!!!!!!!!!!!!')
+                                    achou = True
+                                    break
+                                print('Valor Comparado: ', td_2.text)
+                            td_2_index += 1
+                        if achou == True:
+                            break
+                        row_2_index += 1
+                    #print('len rows: ',len(chrome.find_elements_by_xpath("html/body/table[7]//tr")))
+                    #print('len tds: ',len(row_2.find_elements_by_xpath(".//td[@class='td1']")))
+                if achou:
+                    break
+                td_index += 1
+            if achou == True:
+                break
+            row_index += 1    
+        #print("##########################")
+        #print('total_rows',len(total_tds))
+        #####for row in total_rows:
+        #####    count = 1
+        #####    if count == 1:
+        #####        continue
+        #####    site =  "html/body/table[8]/tbody/tr["+str(count)+"]/td[1]"
+        #####    #print("Site name is :"+ driver.find_element_by_xpath(site).get_attribute('a'))
+        #####    print("Site name is :"+driver.find_element_by_xpath(site).text)
+        #####    count += 1
+
+
         driver.find_element_by_link_text('Salvar / E-mail').click()
         driver.find_element_by_xpath("//select[@name='format']/option[text()='Formato MARC']").click()
         driver.execute_script("arguments[0].click();",driver.find_element_by_xpath('//input[@type="image"][@src="http://dedalus.usp.br/exlibris/aleph/u23_1/alephe/www_f_por/icon/f-go.gif"]'))
@@ -423,7 +499,7 @@ for name in itens:
 
         driver.execute_script("arguments[0].click();",driver.find_element_by_xpath('//img[@alt="Salvar"]'))
         #driver.close()
-    except:
+    #except:
         print("An exception occurred")
 
 fim = time.time()

@@ -9,9 +9,9 @@ import os
 inicio = time.time()
 
 import os
-directory = 'C:\\Users\\BrunaMeneguzzi\\Documents\\Pessoal\\TCC\\itens_1312'
+directory = 'C:\\Users\\brubz\\Downloads\\Teste'
 
-f = open('itens_1312_v3.xml', 'w', encoding = 'utf-8') #utf8
+f = open('item_exemplo.xml', 'w', encoding = 'utf-8') #utf8
 f.write("<?xml version=\"1.0\" encoding=\"UTF-8\" ?><marc:collection xmlns:marc=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\">")
 
 i = 0
